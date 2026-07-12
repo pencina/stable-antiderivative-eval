@@ -86,7 +86,7 @@ for i, x in enumerate(xs):
 
 fig, ax = plt.subplots(figsize=(5.3, 3.1))
 ax.loglog(xs, e2, ".", ms=2.5, color=C2, alpha=0.75,
-          label=r"$F_2$ (CAS default)")
+          label=r"$F_2$ (parts form)"
 ax.loglog(xs, e1, ".", ms=2.5, color=C1, alpha=0.75, label=r"$F_1$")
 ax.axhline(EPS, color="0.55", lw=0.6, ls=":")
 ax.text(2e-2, EPS * 1.35, r"$\epsilon_{\rm mach}$", color="0.35", fontsize=8)
